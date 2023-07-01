@@ -1,5 +1,5 @@
 # 基础镜像，使用官方 Node 镜像
-FROM node:16.13-slim
+FROM node:latest
 
 # 设置工作目录
 WORKDIR /usr/src/app
