@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # 安装依赖
-RUN npm install
+RUN npm install ci
 
 # 拷贝应用程序代码到工作目录
 COPY . .
